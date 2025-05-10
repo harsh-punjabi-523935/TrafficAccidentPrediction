@@ -56,3 +56,5 @@ with st.form("predict_form"):
         pred = model.predict(input_df)
         predicted_label = le_impact.inverse_transform(pred)
         st.success(f"Predicted Impact Type: **{predicted_label[0]}**")
+
+st.download_button("Download Filtered Data", filtered_df.to_csv(index=False), "filtered_data.csv", "text/csv")
