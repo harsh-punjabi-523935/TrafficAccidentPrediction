@@ -1,0 +1,17 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints
+
+# Ignore models and large files (optional)
+*.pkl
+
+# Ignore environment files
+.env
+.venv/
+venv/
+
+# Ignore data (optional — keep if data is public)
+data/raw/
