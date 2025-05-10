@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import joblib
 
 # Load data
-df = pd.read_csv("../data/processed/processed_data.csv")
+df = pd.read_csv("/data/processed/processed_data.csv")
 
 st.dataframe(df.head())
 
