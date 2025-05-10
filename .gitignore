@@ -13,7 +13,4 @@ __pycache__/
 .venv/
 venv/
 
-# Ignore data (optional — keep if data is public)
-data/raw/
-
 models/
